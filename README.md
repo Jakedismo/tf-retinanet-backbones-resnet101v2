@@ -1,6 +1,6 @@
-# TF-Retinanet-Backbones-Resnet
+# TF-Retinanet-Backbones-Resnet101V2
 
-Wrapper around Resnet implementation present in tf.keras, to make it compatible as backbone of
+Wrapper around Resnetv2 implementation present in tf.keras, to make it compatible as backbone of
 [tf-retinanet](https://github.com/fizyr/tf-retinanet "tf-retinanet").
 
 This backbone is *not* the same used in [keras-retinanet](https://github.com/fizyr/keras-retinanet "keras-retinanet"),
@@ -16,10 +16,10 @@ python setup.py install --user
 cd ..
 ```
 
-Install `tf-retinanet-backbones-resnet`:
+Install `tf-retinanet-backbones-resnet101v2`:
 
 ```
-git clone https://github.com/fizyr/tf-retinanet-backbones-resnet.git
+git clone https://github.com/Jakedismo/tf-retinanet-backbones-resnet101v2.git
 cd tf-retinanet-backbones-resnet
 python setup.py install --user
 cd ..
