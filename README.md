@@ -20,7 +20,7 @@ Install `tf-retinanet-backbones-resnet101v2`:
 
 ```
 git clone https://github.com/Jakedismo/tf-retinanet-backbones-resnet101v2.git
-cd tf-retinanet-backbones-resnet
+cd tf-retinanet-backbones-resnet101v2
 python setup.py install --user
 cd ..
 ```

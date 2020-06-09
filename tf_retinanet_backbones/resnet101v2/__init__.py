@@ -21,10 +21,10 @@ default_config = {'type': 'resnet101v2'}
 
 
 def from_config(config, **kwargs):
-	""" Create a ResNet backbone from a backbone configuration dict.
+	""" Create a ResNet101v2 backbone from a backbone configuration dict.
 	# Arguments
 		config: backbone configuration dict.
 	# Returns
-		backbone: ResNet backbone for tf-retinanet.
+		backbone: ResNet101v2 backbone for tf-retinanet.
 	"""
 	return ResNet101V2Backbone(set_defaults(config, default_config), **kwargs)
